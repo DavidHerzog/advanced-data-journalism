@@ -15,8 +15,6 @@ br.submit('ctl00$MainContent$btnElectionType')
 # Get HTML
 html = br.response().read()
 
-print html
-
 # Transform the HTML into a BeautifulSoup object
 soup = BeautifulSoup(html, "html.parser")
 
