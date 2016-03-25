@@ -8,7 +8,7 @@ Your scraper should:
 
   - Loop over each county listed in the "counties" dropdown
   - Scrape results ONLY for the five active candidates: Clinton, Sanders, Cruz, Kasich and Trump
-  - Display that information (either printed to the terminal or as CSV) in a format that looks like this:
+  - Display that information (either printed to the terminal or as CSV) in a format resembling this:
 
 ```
 county, clinton_pct, sanders_pct, cruz_pct, kasich_pct, trump_pct
